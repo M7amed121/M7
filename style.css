@@ -1,0 +1,1122 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&family=Satisfy&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rakkas&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rakkas&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: 'Rubik', sans-serif; /* تم استبدال 'Josefin Sans' بـ 'Rubik' */
+}
+
+body {
+    background: black;
+    overflow-x: hidden; /* لإيقاف التمرير الأفقي */
+    overflow-y: hidden; /* لإيقاف التمرير العمودي */
+
+}
+
+
+#section1,#section2,#section3 {
+    margin-right: -4rem;
+}
+
+.home1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    width: 45%;
+    height: 5vh;
+    content: '';
+    position: relative;
+    bottom: -300px;
+    right: -24.5%;
+}
+
+.home1 h2 {
+    font-family: 'Satisfy';
+    margin-right: -70%;
+    content: '';
+    position: relative;
+    bottom: -6px;
+}
+
+.icons1 {
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+    font-size: 18px;
+}
+
+.fa-lock  {
+    content: '';
+    position: relative;
+    bottom: -13px;
+    left: -45px;
+}
+
+.fa-angle-left,.fa-angle-right {
+    content: '';
+    position: relative;
+    bottom: -13px;
+    left: -50px;
+    font-size: 20px;
+}
+
+.home2 {
+    color: white;
+    font-family: 'Rakkas';
+    font-style: oblique;
+    border: 0.5px solid white;
+    width: 45%;
+    height: 25vh;
+    border-radius: 10px;
+    content: '';
+    position: relative;
+    bottom: -310px;
+    right: -24.5%;
+
+}
+
+
+.home2 h4 {
+    content: '';
+    position: relative;
+    right: -70%;
+    bottom: -75px;
+    font-size: 14px;
+}
+
+.home2 span {
+    background-color: rgb(24, 24, 24);
+
+}
+
+
+.content2 img {
+    content: '';
+    position: relative;
+    right: -25%;
+    width: 15%;
+    bottom: -80px;
+}
+
+.content2 button {
+    background-image: linear-gradient(white,rgba(34, 34, 34, 0.603));
+    content: '';
+    position: relative;
+    right: -58%;
+    font-family: 'Rakkas';
+    bottom: -0.5rem;
+    font-size: 12px;
+    height: 3vh;
+    border-radius: 10px;
+    width: 5%;
+    
+}
+.content2 span,#section2 span,#section3 span {
+    position: relative;
+    right: -0.2rem;
+    bottom: -0.01rem;
+}
+
+.home3 {
+    color: white;
+    font-family: 'Rakkas';
+    font-style: oblique;
+    border: 0.5px solid white;
+    width: 45%;
+    height: 4vh;
+    border-radius: 10px;
+    content: '';
+    position: relative;
+    bottom: -100px;
+    right: -24.5%;
+    
+
+}
+
+.home3 a {
+    font-family:'Rakkas' ;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    content: '';
+    position: relative;
+    left: -3;
+}
+.a2 {
+    color: rgb(61, 61, 61);
+    font-family: Arial;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    content: '';
+    position: relative;
+    bottom: -110px;
+    right: -41%;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  
+    
+    
+}
+
+
+.a2:hover {
+    color: white;
+    background: rgb(61, 106, 255);
+    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+  .a2:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.home4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    width: 45%;
+    height: 3vh;
+    content: '';
+    position: relative;
+    bottom: -300px;
+    right: -24.5%;
+
+
+}
+#section2,#section3{
+    opacity: 0; 
+    transition: opacity 1s ease; 
+}
+#section1 {
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+}
+
+#section1.visible {
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#section1 {
+    animation: fadeIn 3s ease-in-out; 
+}
+
+
+.home4 .h42 {
+    content: '';
+    position: relative;
+    left: -30%;
+    bottom: -5px;
+    font-size: 15px;
+    font-family: 'Satisfy';
+    color: white;
+    font-weight: 850;
+}
+
+
+.home4 .h42:hover {
+    transition: 2s;
+    background-color: rgba(59, 59, 59, 0.459);
+    height: 2.5vh;
+    border-radius: 10px;
+    border: none;
+    border-width: 10px;
+}
+
+.home4 #moreinfo {
+    content: '';
+    position: relative;
+    right: -30%;
+    bottom: -5px;
+
+    font-size: 15px;
+    font-family: 'Satisfy';
+    color: white;
+    font-weight: 850;
+}
+.home4 #moreinfo:hover {
+    transition: 2s;
+    background-color: rgba(59, 59, 59, 0.459);
+    height: 2.5vh;
+    border-radius: 10px;
+    border: none;
+    border-width: 10px;
+}
+
+.home5 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    width: 45%;
+    height: 25vh;
+    content: '';
+    position: relative;
+    bottom: -300px;
+    right: -24.5%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home5 h2 {
+    content: '';
+    position: relative;
+    top: -20px;
+    font-size: 15px;
+    font-family:'Kanit' ;
+    left: -28%;
+
+}
+
+.home5 h4 {
+    margin-bottom: 7px;
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    content: '';
+    position: relative;
+    left: -28%;
+
+  }
+
+#section2 video {
+    content: '';
+    position: relative;
+    right: -56%;
+    bottom: -100px;
+    border-radius: 50%;
+    width: 150px; /* يجب أن يكون العرض والطول متساويين */
+    height: 150px;
+    object-fit: cover; /* للتأكد من أن الفيديو يمتلئ بالكامل داخل الدائرة */
+
+}
+
+#section2 {
+    display: none; /* إخفاء العناصر بداية */
+    transition: opacity 2s ease; /* تحديد التحول التدريجي للشفافية */
+}
+
+
+
+
+#section2 button {
+    content: '';
+    position: relative;
+    right: -47%;
+    font-family: 'Rakkas';
+    bottom: -130px;
+    font-size: 12px;
+    height: 3vh;
+    border-radius: 10px;
+    width: 5%;
+    
+}
+
+
+#section3 img {
+    content: '';
+    position: relative;
+    right: -56%;
+    width: 10%;
+    height: 125px;
+    object-fit: cover;
+    border-radius: 50%;
+    bottom: -110px;
+}
+
+#section3 button {
+    content: '';
+    position: relative;
+    right: -48%;
+    font-family: 'Rakkas';
+    bottom: -140px;
+    font-size: 12px;
+    height: 3vh;
+    border-radius: 10px;
+    width: 5%;
+
+}
+
+
+
+
+
+
+
+
+input,textarea {
+    color: white;
+}
+
+.contactme h2 {
+    color: white;
+    background-color: #0072ff;
+    width: 14%;
+    height: 5vh;
+    border-radius: 0.5rem;
+    text-align: center;
+    line-height: 5vh;
+}
+
+.contactinput {
+    position: relative;
+}
+
+.contactinput input {
+    padding: 5px;
+    background-color: rgba(20, 20, 20, 0);
+    border-radius: 10px;
+    width: 20%;
+    height: 5vh;
+    border: 0.1rem solid #0072ff;
+    margin-bottom: 20px;
+    transition: opacity 0.5s;
+    opacity: 0;
+    position: relative;
+    bottom: -15rem;
+}
+
+
+.contactinput button {
+    width: 9%;
+    height: 3vh;
+    background-color: rgba(20, 20, 20, 0);
+    color: #0072ff;
+    border-radius: 10px;
+    position: relative;
+    right: -50%;
+    bottom: -20rem;
+    font-size: 15px;
+    border: 0.1rem solid #0072ff;
+}
+
+.contactinput button:hover {
+    transition: 0.5s;
+    color: white;
+    background-color: #0072ff;
+}
+
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+    body {
+        overflow: hidden; /* لإيقاف التمرير على الأجهزة المحمولة */
+    }
+
+    #section1,#section2,#section3{
+        content: '';
+        position: relative;
+        top: -6.25rem;
+        left: -3.5rem;
+    }
+    .home1 {
+        color: white;
+        display: flex;
+        justify-content: center;
+        border: 0.031rem solid white;
+        border-radius: 10px;
+        width: 60%;
+        height: 5vh;
+        content: '';
+        position: relative;
+        bottom: -19.188rem;
+        right: -24.5%;
+    }
+
+    
+  
+    
+    .home1 h2 {
+        font-family: 'Satisfy';
+        margin-right: -70%;
+        content: '';
+        position: relative;
+        bottom: -0.7rem;
+        font-size: 0.813rem;
+    }
+    
+    .icons1 {
+        display: flex;
+        justify-content: space-around;
+        width: 18%;
+        font-size: 1.125rem;
+    }
+    
+    .fa-lock  {
+        content: '';
+        position: relative;
+        bottom: -0.625rem;
+        left: -1.375rem;
+        font-size: 0.875rem;
+    }
+    
+    .fa-angle-left,.fa-angle-right {
+        content: '';
+        position: relative;
+        bottom: -0.625rem;
+        left: -2.063rem;
+        font-size: 0.875rem;
+    }
+       
+    .fa-angle-left {
+        content: '';
+        position: relative;
+        bottom: -0.625rem;
+        left: -2.188rem;
+        font-size: 0.875rem;
+    }
+    
+    .home2 {
+        color: white;
+        font-family: 'Rakkas';
+        font-style: oblique;
+        border: 0.5px solid white;
+        width: 60%;
+        height: 25vh;
+        border-radius: 0.625rem;
+        content: '';
+        position: relative;
+        bottom: -19.375rem;
+        right: -24.5%;
+    
+    }
+    
+    
+    .home2 h4 {
+        content: '';
+        position: relative;
+        right: -53%;
+        bottom: -3.438rem;
+        font-size: 0.625rem;
+    }
+    
+    .home2 span {
+        background-color: rgb(24, 24, 24);
+    
+    }
+    
+    
+    .content2 img {
+        content: '';
+        position: relative;
+        right: -15%;
+        width: 25%;
+        bottom: -9.375rem;
+    }
+    
+    .content2 button {
+        content: '';
+        position: relative;
+        right: -59%;
+        font-family: 'Rakkas';
+        bottom: -7.4rem;
+        font-size: 0.625rem;
+        height: 3vh;
+        border-radius: 10px;
+        width: 10%;
+        
+    }
+    
+    .home3 {
+        color: white;
+        font-family: 'Rakkas';
+        font-style: oblique;
+        border: 0.5px solid white;
+        width: 60%;
+        height: 4vh;
+        border-radius: 0.625rem;
+        content: '';
+        position: relative;
+        bottom: -11.5rem;
+        right: -24.5%;
+        
+    
+    }
+    
+    .home3 a {
+        font-family:'Rakkas' ;
+        font-size: 0.938rem;
+        color: white;
+        display: flex;
+        justify-content: center;
+        content: '';
+        position: relative;
+        bottom: -0.2rem;
+    }
+    .a2 {
+        color: rgb(61, 61, 61);
+        font-family: Arial;
+        font-size: 0.5rem;
+        font-style: normal;
+        font-weight: 800;
+        content: '';
+        position: relative;
+        bottom: -12rem;
+        right: -42%;
+        padding: 0.625rem 1.25rem;
+        border-radius: 0.438rem;
+        box-shadow: 0 0 0 0 transparent;
+        -webkit-transition: all 0.2s ease-in;
+        -moz-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+      
+        
+        
+    }
+    
+    
+    .a2:hover {
+        color: white;
+        background: rgb(61, 106, 255);
+        box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+        -webkit-transition: all 0.2s ease-out;
+        -moz-transition: all 0.2s ease-out;
+        transition: all 0.2s ease-out;
+      }
+      
+      .a2:hover::before {
+        -webkit-animation: sh02 0.5s 0s linear;
+        -moz-animation: sh02 0.5s 0s linear;
+        animation: sh02 0.5s 0s linear;
+      }
+
+
+.home4{
+    width: 60%;
+    content: '';
+    position: relative;
+    bottom: -305px;
+}
+
+.home4 .h42 {
+    content: '';
+    position: relative;
+    left: -22%;
+    bottom: -0.156rem;
+    font-size: 11px;
+    font-family: 'Satisfy';
+    color: white;
+    font-weight: 850;
+}
+
+.home4 .h42:hover {
+    transition: 2s;
+    background-color: rgba(59, 59, 59, 0.459);
+    height: 2.5vh;
+    border-radius: 10px;
+    border: none;
+    border-width: 10px;
+}
+
+.home4 #moreinfo {
+    content: '';
+    position: relative;
+    right: -22%;
+    bottom: -2px;
+    font-size: 11px;
+    font-family: 'Satisfy';
+    color: white;
+    font-weight: 850;
+}
+.home4 #moreinfo:hover {
+    transition: 2s;
+    background-color: rgba(59, 59, 59, 0.459);
+    height: 2.5vh;
+    border-radius: 10px;
+    border: none;
+    border-width: 10px;
+}
+
+.home5 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    width: 60%;
+    height: 25vh;
+    content: '';
+    position: relative;
+    bottom: -305px;
+    right: -24.5%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home5 h2 {
+    content: '';
+    position: relative;
+    top: -12px;
+    font-size: 7px;
+    font-family:'Kanit' ;
+    left: -20%;
+    font-size: 9px;
+
+}
+
+.home5 h4 {
+    margin-bottom: 7px;
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-size: 8px;
+    font-style: normal;
+    content: '';
+    position: relative;
+    left: -20%;
+
+  }
+
+#section2 video {
+    content: '';
+    position: relative;
+    right: -56%;
+    bottom: -175px;
+    border-radius: 50%;
+    width: 75px; /* يجب أن يكون العرض والطول متساويين */
+    height: 75px;
+    object-fit: cover; /* للتأكد من أن الفيديو يمتلئ بالكامل داخل الدائرة */
+
+}
+
+#section2 {
+    display: none; /* إخفاء العناصر بداية */
+    transition: opacity 2s ease; /* تحديد التحول التدريجي للشفافية */
+}
+#section2 button {
+    content: '';
+    position: relative;
+    right: -43%;
+    font-family: 'Rakkas';
+    bottom: -195px;
+    font-size: 10px;
+    height: 3vh;
+    border-radius: 10px;
+    width: 10%;
+    
+}
+
+#section3 img {
+    content: '';
+    position: relative;
+    right: -59%;
+    width: 18%;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+    bottom: -175px;
+}
+
+#section3 button {
+    content: '';
+    position: relative;
+    right: -45%;
+    font-family: 'Rakkas';
+    bottom: -195px;
+    font-size: 10px;
+    height: 3vh;
+    border-radius: 10px;
+    width: 10%;
+
+}
+
+  
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+
+
+    
+.home1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    width: 45%;
+    height: 5vh;
+    content: '';
+    position: relative;
+    bottom: -300px;
+    right: -24.5%;
+}
+
+.home1 h2 {
+    font-family: 'Satisfy';
+    margin-right: -70%;
+    content: '';
+    position: relative;
+    bottom: -6px;
+}
+
+.icons1 {
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+    font-size: 18px;
+}
+
+.fa-lock  {
+    content: '';
+    position: relative;
+    bottom: -13px;
+    left: -45px;
+}
+
+.fa-angle-left,.fa-angle-right {
+    content: '';
+    position: relative;
+    bottom: -13px;
+    left: -50px;
+    font-size: 20px;
+}
+
+.home2 {
+    color: white;
+    font-family: 'Rakkas';
+    font-style: oblique;
+    border: 0.5px solid white;
+    width: 45%;
+    height: 25vh;
+    border-radius: 10px;
+    content: '';
+    position: relative;
+    bottom: -310px;
+    right: -24.5%;
+
+}
+
+
+.home2 h4 {
+    content: '';
+    position: relative;
+    right: -62%;
+    bottom: -75px;
+    font-size: 14px;
+}
+
+.home2 span {
+    background-color: rgb(24, 24, 24);
+
+}
+
+
+.content2 img {
+    content: '';
+    position: relative;
+    right: -22%;
+    width: 20%;
+    bottom: -80px;
+}
+
+.content2 button {
+    content: '';
+    position: relative;
+    right: -58%;
+    font-family: 'Rakkas';
+    bottom: -3rem;
+    font-size: 12px;
+    height: 3vh;
+    border-radius: 10px;
+    width: 5%;
+    
+}
+
+.home3 {
+    color: white;
+    font-family: 'Rakkas';
+    font-style: oblique;
+    border: 0.5px solid white;
+    width: 45%;
+    height: 4vh;
+    border-radius: 10px;
+    content: '';
+    position: relative;
+    bottom: -8.5rem;
+    right: -24.5%;
+    
+
+}
+
+.home3 a {
+    font-family:'Rakkas' ;
+    font-size: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    content: '';
+    position: relative;
+}
+.a2 {
+    color: rgb(61, 61, 61);
+    font-family: Arial;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 800;
+    content: '';
+    position: relative;
+    bottom: -9rem;
+    right: -37%;
+    padding: 10px 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 0 0 transparent;
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+  
+    
+    
+}
+
+
+.a2:hover {
+    color: white;
+    background: rgb(61, 106, 255);
+    box-shadow: 0 0 30px 5px rgba(0, 142, 236, 0.815);
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+  }
+  
+  .a2:hover::before {
+    -webkit-animation: sh02 0.5s 0s linear;
+    -moz-animation: sh02 0.5s 0s linear;
+    animation: sh02 0.5s 0s linear;
+  }
+
+
+
+  
+
+.home4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    width: 45%;
+    height: 3vh;
+    content: '';
+    position: relative;
+    bottom: -300px;
+    right: -24.5%;
+
+
+}
+#section2,#section3{
+    opacity: 0; 
+    transition: opacity 1s ease; 
+}
+#section1 {
+    opacity: 0; 
+    transition: opacity 1s ease-in-out; 
+}
+
+#section1.visible {
+    opacity: 1;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+#section1 {
+    animation: fadeIn 3s ease-in-out; 
+}
+
+
+.home4 .h42 {
+    content: '';
+    position: relative;
+    left: -30%;
+    bottom: -5px;
+    font-size: 15px;
+    font-family: 'Satisfy';
+    color: white;
+    font-weight: 850;
+}
+
+
+.home4 .h42:hover {
+    transition: 2s;
+    background-color: rgba(59, 59, 59, 0.459);
+    height: 2.5vh;
+    border-radius: 10px;
+    border: none;
+    border-width: 10px;
+}
+
+.home4 #moreinfo {
+    content: '';
+    position: relative;
+    right: -30%;
+    bottom: -5px;
+
+    font-size: 15px;
+    font-family: 'Satisfy';
+    color: white;
+    font-weight: 850;
+}
+.home4 #moreinfo:hover {
+    transition: 2s;
+    background-color: rgba(59, 59, 59, 0.459);
+    height: 2.5vh;
+    border-radius: 10px;
+    border: none;
+    border-width: 10px;
+}
+
+.home5 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    width: 45%;
+    height: 25vh;
+    content: '';
+    position: relative;
+    bottom: -300px;
+    right: -24.5%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.home5 h2 {
+    content: '';
+    position: relative;
+    top: -20px;
+    font-size: 0.7rem;
+    font-family:'Kanit' ;
+    left: -22%;
+
+}
+
+.home5 h4 {
+    margin-bottom: 7px;
+    font-family: "Galada", cursive;
+    font-weight: 400;
+    font-style: normal;
+    content: '';
+    font-size: 0.8rem;
+    position: relative;
+    left: -22%;
+
+  }
+
+#section2 video {
+    content: '';
+    position: relative;
+    right: -48%;
+    bottom: -100px;
+    border-radius: 50%;
+    width: 8rem; /* يجب أن يكون العرض والطول متساويين */
+    height:8rem;
+    object-fit: cover; /* للتأكد من أن الفيديو يمتلئ بالكامل داخل الدائرة */
+
+}
+
+#section2 {
+    display: none; /* إخفاء العناصر بداية */
+    transition: opacity 2s ease; /* تحديد التحول التدريجي للشفافية */
+}
+
+
+
+
+#section2 button {
+    content: '';
+    position: relative;
+    right: -38.5%;
+    font-family: 'Rakkas';
+    bottom: -130px;
+    font-size: 12px;
+    height: 3vh;
+    border-radius: 10px;
+    width: 5%;
+    
+}
+
+
+#section3 img {
+    content: '';
+    position: relative;
+    right: -51%;
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    bottom: -110px;
+}
+
+#section3 button {
+    content: '';
+    position: relative;
+    right: -41%;
+    font-family: 'Rakkas';
+    bottom: -140px;
+    font-size: 12px;
+    height: 3vh;
+    border-radius: 10px;
+    width: 5%;
+
+}
+
+
+
+
+
+    
+}
+
