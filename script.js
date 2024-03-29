@@ -69,23 +69,4 @@ document.addEventListener("DOMContentLoaded", function() {
     section1.classList.add('visible');
 });
 
-
-document.addEventListener("DOMContentLoaded", function() {
-    const inputs = document.querySelectorAll(".contactinput input, .contactinput textarea");
-    const toggleInputBtn = document.getElementById("toggleInputBtn");
-    let isOpen = false;
-
-    toggleInputBtn.addEventListener("click", function() {
-        isOpen = !isOpen;
-        inputs.forEach(input => {
-            input.style.opacity = isOpen ? "1" : "0";
-        });
-    });
-});
-
-
-$(document).ready(function(){
-    $("#toggleInputBtn").click(function(){
-        $("body").toggleClass("body");
-    });
-});
+/* Get out, you code thief */
